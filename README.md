@@ -40,10 +40,10 @@ On this tutorial we will get starts with SwiftUI + Firebase request to fill a Li
 
 - Click on Register app and let's waiting a little bit;
 - On the next screen, click on "Download GoogleService-info.plist" to download file, and so, click on Next button;
+- Drag and drop downloaded file inside your xcode FireBaseInfiniteScroll folder (root project files folder);
 
 ![Download info.plist pre-settings file](images/img04.png)
 
-- Drag and drop downloaded file inside your xcode FireBaseInfiniteScroll folder (root project files folder);
 - Check "Copy items if needed" and "Create groups" options enabled on modal screen;
 
 ![Set copy options](images/img05.png)
