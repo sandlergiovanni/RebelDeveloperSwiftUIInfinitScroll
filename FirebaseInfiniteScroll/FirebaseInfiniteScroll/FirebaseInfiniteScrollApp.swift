@@ -1,14 +1,9 @@
-//
-//  FirebaseInfiniteScrollApp.swift
-//  FirebaseInfiniteScroll
-//
-//  Created by Sandler Maciel on 31/05/24.
-//
-
 import SwiftUI
 
 @main
 struct FirebaseInfiniteScrollApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

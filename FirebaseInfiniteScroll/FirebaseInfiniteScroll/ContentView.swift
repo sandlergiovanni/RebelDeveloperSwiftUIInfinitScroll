@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  FirebaseInfiniteScroll
-//
-//  Created by Sandler Maciel on 31/05/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
