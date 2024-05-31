@@ -21,6 +21,7 @@ On this tutorial we will get starts with SwiftUI + Firebase request to fill a Li
 - Click on rigth top option "Go to console" link;
 - Choose "Add project" on main page;
 - On step 1 of 3 (create project option screen), type your project name: FirebaseInfiniteScroll;
+![Create firebase project](Prints/img01.jpg)
 - Set confirm checkbox as on (yes, I do to continue) and click on Continue button;
 - On step 2 of 3, disable Google Analytics option and click on Create Project button;
 - Waiting for project setup finish, so, click on Continue button;
