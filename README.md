@@ -30,28 +30,63 @@ On this tutorial we will get starts with SwiftUI + Firebase request to fill a Li
 
 ### Step 3 - Set up our project with Firebase configurations and options
 
-- Click on rounded iOS+ button (followed by Android and HTML project options) to add new iOS project configurations;
+- Click on rounded iOS+ button (followed by Android and HTML project options - right side on bottom) to add new iOS project configurations;
+
+![Create iOS settings](images/img02.png)
+
 - Fill the "Apple bundle ID" option with your project name (e.g.: br.com.yoursite.FirebaseInfiniteScroll);
+
+![Add your iOS bundle identify](images/img03.png)
+
 - Click on Register app and let's waiting a little bit;
 - On the next screen, click on "Download GoogleService-info.plist" to download file, and so, click on Next button;
+
+![Download info.plist pre-settings file](images/img04.png)
+
 - Drag and drop downloaded file inside your xcode FireBaseInfiniteScroll folder (root project files folder);
 - Check "Copy items if needed" and "Create groups" options enabled on modal screen;
+
+![Set copy options](images/img05.png)
+
 - Go back to your browser and copy github link of firebase-ios-sdk (on step "Add Firebase SDK") and click next;
 - Go to Xcode again and select your main "FirebaseInfiniteScroll" top project file;
 - On the main screen ("FirebaseInfiniteScroll.xcodeproj" panel) choose "PROJECT" > FirebaseInfiniteScrool blue icon;
+
+![Download info.plist pre-settings file](images/img06.png)
+
 - Click on "Package Dependencies" tab, click on "+" (plus button) and type the copied link on "Search" screen option;
+
+![Fill "Search" field to continue](images/img07.png)
+
 - Wait for wizard locate package and click on "Add Package" button after package loaded (and let's wait again.. aff);
+
+![Library details](images/img08.png)
+
 - When loading proccess finished and show package library list, let's select "FirebaseFirestore" and "FirebaseFirestoreSwift" options and setting up "FirebaseInfiniteScroll" project on "Add to Target" column;
+
+![Select only two options](images/img09.png)
+
 - All Firebase package libraries will appear on your Xcode left side project tab.
+
+![All needed libraries](images/img10.png)
+
 - Let's go back to our browser and click o "Next" button on Firebase step 3 (where we copy github library link);
 - We'll split the code available on Firebase site into our own files, so, let's create a new "AppDelegate.swift" file on Xcode using "File > New > File..." menu option;
+
+![New AppDelegate.swift file](images/img11.png)
+
 - In this new file, let's copy and paste the first block of Firebase website;
 - Finnaly, let's copy our adapter (@UIApplicationDelegateAdaptor) to correct location on our FirebaseInfinitScrollApp file.
+
+![Setup our adapter](images/img12.png)
 
 ### Step 4 - Let's setup Firebase
 
 - On Firebase web site, click on "Continue to console" option to go to Firebase console;
 - There, choose "Build" > "Firestore Database" (and wait again... aff);
+
+![New database](images/img13.png)
+
 - Our next option is "Create database" that will appear on main site after screen auto update;
 - Warning here: is not possible change database location after create one, so, think a little bit before choose;
 - For our tests purpose, chose "Start in test mode" and wait for task finished;
