@@ -15,6 +15,8 @@
 		E9CB07222C0A3FE800BE658C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB07212C0A3FE800BE658C /* AppDelegate.swift */; };
 		E9CB07262C0A46EE00BE658C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E9CB07252C0A46EE00BE658C /* FirebaseFirestore */; };
 		E9CB07282C0A46EE00BE658C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9CB07272C0A46EE00BE658C /* FirebaseFirestoreSwift */; };
+		E9CB072B2C0B311900BE658C /* UserTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB072A2C0B311900BE658C /* UserTasks.swift */; };
+		E9CB072E2C0B325C00BE658C /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB072D2C0B325C00BE658C /* DateFormatter+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E9CB07172C0A34D800BE658C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9CB071E2C0A3B0400BE658C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E9CB07212C0A3FE800BE658C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9CB072A2C0B311900BE658C /* UserTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTasks.swift; sourceTree = "<group>"; };
+		E9CB072D2C0B325C00BE658C /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		E9CB070F2C0A34D700BE658C /* FirebaseInfiniteScroll */ = {
 			isa = PBXGroup;
 			children = (
+				E9CB072C2C0B323E00BE658C /* Extensions */,
+				E9CB07292C0B30EB00BE658C /* Models */,
 				E9CB07212C0A3FE800BE658C /* AppDelegate.swift */,
 				E9CB07102C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift */,
 				E9CB07122C0A34D700BE658C /* ContentView.swift */,
@@ -75,6 +81,22 @@
 				E9CB07172C0A34D800BE658C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9CB07292C0B30EB00BE658C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB072A2C0B311900BE658C /* UserTasks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9CB072C2C0B323E00BE658C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB072D2C0B325C00BE658C /* DateFormatter+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9CB07222C0A3FE800BE658C /* AppDelegate.swift in Sources */,
+				E9CB072E2C0B325C00BE658C /* DateFormatter+Ext.swift in Sources */,
 				E9CB07132C0A34D700BE658C /* ContentView.swift in Sources */,
 				E9CB07112C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift in Sources */,
+				E9CB072B2C0B311900BE658C /* UserTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
