@@ -6,7 +6,7 @@ struct UserTasks: Identifiable, Codable {
     var createdAt: Date?
     var title: String?
     
-    init(createdAt: Date? = .now, title: String? = UUID().uuidString) {
+    init(createdAt: Date? = .now, title: String = "Unknowed: \(UUID().uuidString)") {
         self.createdAt = createdAt
         self.title = title
     }
