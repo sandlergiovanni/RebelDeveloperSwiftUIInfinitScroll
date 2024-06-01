@@ -63,12 +63,10 @@
 		E9CB070F2C0A34D700BE658C /* FirebaseInfiniteScroll */ = {
 			isa = PBXGroup;
 			children = (
+				E9CB07302C0B342100BE658C /* AppEssencials */,
 				E9CB072C2C0B323E00BE658C /* Extensions */,
 				E9CB07292C0B30EB00BE658C /* Models */,
-				E9CB07212C0A3FE800BE658C /* AppDelegate.swift */,
-				E9CB07102C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift */,
-				E9CB07122C0A34D700BE658C /* ContentView.swift */,
-				E9CB07142C0A34D800BE658C /* Assets.xcassets */,
+				E9CB072F2C0B338100BE658C /* Scenes */,
 				E9CB07162C0A34D800BE658C /* Preview Content */,
 				E9CB071E2C0A3B0400BE658C /* GoogleService-Info.plist */,
 			);
@@ -97,6 +95,24 @@
 				E9CB072D2C0B325C00BE658C /* DateFormatter+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9CB072F2C0B338100BE658C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB07122C0A34D700BE658C /* ContentView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E9CB07302C0B342100BE658C /* AppEssencials */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB07102C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift */,
+				E9CB07212C0A3FE800BE658C /* AppDelegate.swift */,
+				E9CB07142C0A34D800BE658C /* Assets.xcassets */,
+			);
+			path = AppEssencials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
