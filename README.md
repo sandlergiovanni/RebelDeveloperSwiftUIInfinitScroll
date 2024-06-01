@@ -2,7 +2,9 @@
 
 Micro tutorial of "Rebeloper" (Rebel Developer) YouTube channel.
 
-On this tutorial we will get starts with SwiftUI + Firebase request to fill a List with remote data using infinite scroll.
+On this tutorial we will get starts with SwiftUI + Firebase request to fill a List with remote data using infinite scroll (+ pagination).
+
+To see more, visit: https://www.youtube.com/watch?v=x8aB8hZ0S5k&t=1120s&ab_channel=Rebeloper-RebelDeveloper
 
 ## Our Steps
 
