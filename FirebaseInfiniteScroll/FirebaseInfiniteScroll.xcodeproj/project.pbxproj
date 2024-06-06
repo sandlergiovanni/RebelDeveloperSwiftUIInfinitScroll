@@ -18,6 +18,9 @@
 		E9CB07222C0A3FE800BE658C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB07212C0A3FE800BE658C /* AppDelegate.swift */; };
 		E9CB072B2C0B311900BE658C /* UserTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB072A2C0B311900BE658C /* UserTasks.swift */; };
 		E9CB072E2C0B325C00BE658C /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB072D2C0B325C00BE658C /* DateFormatter+Ext.swift */; };
+		E9F338182C111209009A7D29 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F338172C111209009A7D29 /* ContactView.swift */; };
+		E9F3381A2C1119FE009A7D29 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F338192C1119FE009A7D29 /* Contact.swift */; };
+		E9F3381C2C111D38009A7D29 /* ViaCepResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3381B2C111D38009A7D29 /* ViaCepResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		E9CB07212C0A3FE800BE658C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9CB072A2C0B311900BE658C /* UserTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTasks.swift; sourceTree = "<group>"; };
 		E9CB072D2C0B325C00BE658C /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ext.swift"; sourceTree = "<group>"; };
+		E9F338172C111209009A7D29 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		E9F338192C1119FE009A7D29 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E9F3381B2C111D38009A7D29 /* ViaCepResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaCepResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				E9CB072A2C0B311900BE658C /* UserTasks.swift */,
+				E9F338192C1119FE009A7D29 /* Contact.swift */,
+				E9F3381B2C111D38009A7D29 /* ViaCepResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				E9CB07122C0A34D700BE658C /* ContentView.swift */,
+				E9F338172C111209009A7D29 /* ContactView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -206,8 +215,11 @@
 			files = (
 				E9CB07222C0A3FE800BE658C /* AppDelegate.swift in Sources */,
 				E991D4712C0B584D0045ED50 /* AppCollections.swift in Sources */,
+				E9F3381C2C111D38009A7D29 /* ViaCepResponse.swift in Sources */,
 				E9CB072E2C0B325C00BE658C /* DateFormatter+Ext.swift in Sources */,
 				E9CB07132C0A34D700BE658C /* ContentView.swift in Sources */,
+				E9F3381A2C1119FE009A7D29 /* Contact.swift in Sources */,
+				E9F338182C111209009A7D29 /* ContactView.swift in Sources */,
 				E9CB07112C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift in Sources */,
 				E9CB072B2C0B311900BE658C /* UserTasks.swift in Sources */,
 			);
