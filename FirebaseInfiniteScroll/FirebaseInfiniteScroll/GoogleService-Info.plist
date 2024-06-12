@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDosVaNXSyBHVOpnIHfWeFtRIa8NESg5AU</string>
+	<string>AIzaSyAk8Bu5G2uFArQtWm4xP6nmh9w68LuSZok</string>
 	<key>GCM_SENDER_ID</key>
-	<string>795535286774</string>
+	<string>432412344569</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>br.com.cafecomswift.FirebaseInfiniteScroll</string>
 	<key>PROJECT_ID</key>
-	<string>fir-infinitescroll-3d445</string>
+	<string>fir-infinitescroll-18d1e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-infinitescroll-3d445.appspot.com</string>
+	<string>fir-infinitescroll-18d1e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:795535286774:ios:2fae28f7a8ce07acd967d7</string>
+	<string>1:432412344569:ios:bb4c8e702fd2bacaae2228</string>
 </dict>
 </plist>

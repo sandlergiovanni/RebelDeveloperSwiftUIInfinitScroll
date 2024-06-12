@@ -47,7 +47,7 @@ struct ContactView: View {
                 .disabled(nome.isEmpty && celular.isEmpty && email.isEmpty && cep.isEmpty)
             }
         }
-        .navigationTitle("Novo Contato")
+        .navigationTitle(self.contact != nil ? "Alterar Contato" : "Novo Contato")
         .padding()
         .onAppear {
             if let validContact = self.contact {
