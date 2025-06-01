@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E951D5E42DEC8EFF0079BA0C /* MainSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951D5E32DEC8EFF0079BA0C /* MainSection.swift */; };
+		E951D5E62DEC8F160079BA0C /* AddressSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951D5E52DEC8F160079BA0C /* AddressSection.swift */; };
+		E951D5EC2DEC94250079BA0C /* SimpleSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951D5EB2DEC94250079BA0C /* SimpleSearchField.swift */; };
+		E951D5EE2DECA21C0079BA0C /* SimpleLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951D5ED2DECA2170079BA0C /* SimpleLine.swift */; };
 		E991D4712C0B584D0045ED50 /* AppCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991D4702C0B584D0045ED50 /* AppCollections.swift */; };
-		E991D4732C0B60DF0045ED50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E991D4722C0B60DF0045ED50 /* GoogleService-Info.plist */; };
 		E991D4762C0B61740045ED50 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E991D4752C0B61740045ED50 /* FirebaseFirestore */; };
 		E991D4782C0B61740045ED50 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E991D4772C0B61740045ED50 /* FirebaseFirestoreSwift */; };
+		E9A0A7CD2DDB536800844273 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9A0A7CC2DDB536800844273 /* GoogleService-Info.plist */; };
 		E9CB07112C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB07102C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift */; };
 		E9CB07132C0A34D700BE658C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB07122C0A34D700BE658C /* ContentView.swift */; };
 		E9CB07152C0A34D800BE658C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CB07142C0A34D800BE658C /* Assets.xcassets */; };
@@ -24,8 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E951D5E32DEC8EFF0079BA0C /* MainSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSection.swift; sourceTree = "<group>"; };
+		E951D5E52DEC8F160079BA0C /* AddressSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSection.swift; sourceTree = "<group>"; };
+		E951D5EB2DEC94250079BA0C /* SimpleSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSearchField.swift; sourceTree = "<group>"; };
+		E951D5ED2DECA2170079BA0C /* SimpleLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLine.swift; sourceTree = "<group>"; };
 		E991D4702C0B584D0045ED50 /* AppCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollections.swift; sourceTree = "<group>"; };
-		E991D4722C0B60DF0045ED50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9A0A7CC2DDB536800844273 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E9CB070D2C0A34D700BE658C /* FirebaseInfiniteScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseInfiniteScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CB07102C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseInfiniteScrollApp.swift; sourceTree = "<group>"; };
 		E9CB07122C0A34D700BE658C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +60,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E951D5E12DEC8E9F0079BA0C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E951D5EA2DEC93AC0079BA0C /* Subviews */,
+				E9CB07122C0A34D700BE658C /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E951D5E22DEC8EC20079BA0C /* Contatcts */ = {
+			isa = PBXGroup;
+			children = (
+				E951D5E72DEC8F740079BA0C /* Subviews */,
+				E9F338172C111209009A7D29 /* ContactView.swift */,
+			);
+			path = Contatcts;
+			sourceTree = "<group>";
+		};
+		E951D5E72DEC8F740079BA0C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E951D5E32DEC8EFF0079BA0C /* MainSection.swift */,
+				E951D5E52DEC8F160079BA0C /* AddressSection.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E951D5EA2DEC93AC0079BA0C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E951D5ED2DECA2170079BA0C /* SimpleLine.swift */,
+				E951D5EB2DEC94250079BA0C /* SimpleSearchField.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		E991D46F2C0B58340045ED50 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +123,7 @@
 		E9CB070F2C0A34D700BE658C /* FirebaseInfiniteScroll */ = {
 			isa = PBXGroup;
 			children = (
-				E991D4722C0B60DF0045ED50 /* GoogleService-Info.plist */,
+				E9A0A7CC2DDB536800844273 /* GoogleService-Info.plist */,
 				E9CB07102C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift */,
 				E9CB07212C0A3FE800BE658C /* AppDelegate.swift */,
 				E9CB07142C0A34D800BE658C /* Assets.xcassets */,
@@ -121,8 +165,8 @@
 		E9CB072F2C0B338100BE658C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				E9CB07122C0A34D700BE658C /* ContentView.swift */,
-				E9F338172C111209009A7D29 /* ContactView.swift */,
+				E951D5E12DEC8E9F0079BA0C /* Main */,
+				E951D5E22DEC8EC20079BA0C /* Contatcts */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -202,7 +246,7 @@
 			files = (
 				E9CB07182C0A34D800BE658C /* Preview Assets.xcassets in Resources */,
 				E9CB07152C0A34D800BE658C /* Assets.xcassets in Resources */,
-				E991D4732C0B60DF0045ED50 /* GoogleService-Info.plist in Resources */,
+				E9A0A7CD2DDB536800844273 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,11 +260,15 @@
 				E9CB07222C0A3FE800BE658C /* AppDelegate.swift in Sources */,
 				E991D4712C0B584D0045ED50 /* AppCollections.swift in Sources */,
 				E9F3381C2C111D38009A7D29 /* ViaCepResponse.swift in Sources */,
+				E951D5E62DEC8F160079BA0C /* AddressSection.swift in Sources */,
 				E9CB072E2C0B325C00BE658C /* DateFormatter+Ext.swift in Sources */,
 				E9CB07132C0A34D700BE658C /* ContentView.swift in Sources */,
+				E951D5EC2DEC94250079BA0C /* SimpleSearchField.swift in Sources */,
 				E9F3381A2C1119FE009A7D29 /* Contact.swift in Sources */,
 				E9F338182C111209009A7D29 /* ContactView.swift in Sources */,
 				E9CB07112C0A34D700BE658C /* FirebaseInfiniteScrollApp.swift in Sources */,
+				E951D5E42DEC8EFF0079BA0C /* MainSection.swift in Sources */,
+				E951D5EE2DECA21C0079BA0C /* SimpleLine.swift in Sources */,
 				E9CB072B2C0B311900BE658C /* UserTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

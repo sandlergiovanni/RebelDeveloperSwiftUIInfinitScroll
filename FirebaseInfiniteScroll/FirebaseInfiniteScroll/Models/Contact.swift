@@ -1,7 +1,7 @@
 import FirebaseFirestore
 
 struct Contact: Identifiable, Codable {
-    @DocumentID var id: String?
+    var id: String?
     var createdAt: Date
     var nome: String
     var celular: String
@@ -15,7 +15,6 @@ struct Contact: Identifiable, Codable {
     var complemento: String?
     
     init(createdAt: Date = .now, nome: String, celular: String, email: String, cep: String? = nil, rua: String? = nil, bairro: String? = nil, cidade: String? = nil, estado: String? = nil, numero: String? = nil, complemento: String? = nil) {
-        self.id = UUID().uuidString
         self.createdAt = createdAt
         self.nome = nome
         self.celular = celular
@@ -27,5 +26,11 @@ struct Contact: Identifiable, Codable {
         self.estado = estado
         self.numero = numero
         self.complemento = complemento
+    }
+}
+
+extension Contact {
+    var safeId: String {
+        id ?? UUID().uuidString
     }
 }
